@@ -1,11 +1,9 @@
-# 1️⃣ Password Function
+
 def check_password():
     while input("Enter password: ") != "1234":
         print("Wrong password")
     print("Access granted")
 
-
-# 2️⃣ Factorial Function
 def factorial():
     n = int(input("Enter number: "))
     fact = 1
@@ -13,15 +11,11 @@ def factorial():
         fact *= i
     print("Factorial =", fact)
 
-
-# 3️⃣ Guessing Game Function
 def guessing_game():
     while int(input("Guess the number: ")) != 7:
         print("Try again")
     print("Correct!")
 
-
-# 4️⃣ Prime Check Function
 def check_prime():
     n = int(input("Enter number: "))
     prime = True
@@ -43,4 +37,5 @@ def check_prime():
 check_password()
 factorial()
 guessing_game()
+
 check_prime()
